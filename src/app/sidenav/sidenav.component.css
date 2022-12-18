@@ -1,0 +1,10 @@
+button {
+  background-color: #f2f8fc;
+  text-decoration: none;
+  border: none;
+  width: 100%;
+  text-align: left;
+}
+button:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

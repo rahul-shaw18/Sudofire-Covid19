@@ -1,0 +1,23 @@
+.main-container .nar-bar .navBrand{
+  font-weight: bold;
+}
+
+.main-container .view-container {
+  display: flex;
+  height: auto;
+  margin: 0 15px;
+  background-color: #f2f8fc;
+}
+
+.main-container .view-container .side-nav {
+  width: 240px;
+
+  padding: 10px;
+}
+
+.main-container .view-container .content {
+  width: calc(100% - auto);
+  width: 100%;
+
+}
+

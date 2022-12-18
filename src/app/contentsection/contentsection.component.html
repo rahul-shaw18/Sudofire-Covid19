@@ -1,0 +1,16 @@
+<div class="main-container">
+    <div class="section" *ngIf="!displayLoaderIndicator">
+        <div class="card" *ngFor="let data of filteredCovid19Datas">
+            <span style="text-align: center;font-weight:bold">{{data.Country}}</span>
+            <div>Confirmed Cases: {{data.Confirmed}}</div>
+            <div>Deaths: {{data.Deaths}}</div>
+            <div>Recovered: {{data.Recovered}}</div>
+            <div>Active: {{data.Active}}</div>
+            <div>Date: {{data.Date | date:'short'}}</div>
+        </div>
+    </div>
+</div>
+
+<div class="spinner" *ngIf="displayLoaderIndicator">
+
+</div>
